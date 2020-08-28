@@ -1,10 +1,5 @@
 import React from 'react'
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 // nl_nl_test_set
 import {
   GuidingPrinciples,
@@ -14,9 +9,9 @@ import {
   Format,
   AgreedSpelling,
   DifficultUtterances,
-} from './nl_nl_test_set'
+} from './Guidelines/nl_nl_test_set'
 
-//uk_ua_test_set
+//nepali
 import {
   GuidingPrinciplesUK_UA,
   LongFormGenericRulesUK_UA,
@@ -25,20 +20,45 @@ import {
   AgreedSpellingUK_UA,
   DifficultUtterancesUK_UA,
   FormatUK_UA,
-} from './uk_ua_test_set'
+} from './Guidelines/uk_ua_test_set'
+
+// Nepali
+import {
+  AgreedSpellingNepali,
+  DifficultUtterancesNepali,
+  FormatNepali,
+  GuidingPrinciplesNepali,
+  LongFormGenericRulesNepali,
+  PunctuationNepali,
+  TranscriptionQualityNepali,
+} from './Guidelines/nepali'
+
+// Armenian
+import {
+  AgreedSpellingArmenian,
+  DifficultUtterancesArmenian,
+  FormatArmenian,
+  GuidingPrinciplesArmenian,
+  LongFormGenericRulesArmenian,
+  PunctuationArmenian,
+  TranscriptionQualityArmenian,
+} from './Guidelines/Armenian'
+
+import Home from './Home'
 
 const App = () => {
   return (
     <Router>
       <Switch>
         {/* temporary redirect */}
-        <Route
+        {/* <Route
           exact
           path="/"
           render={() => {
             return <Redirect to="/nl_nl_test_set/guiding_principles" />
           }}
-        />
+        /> */}
+        <Route exact path="/" component={Home} />
         {/* nl_nl_test_set routes */}
         <Route
           path="/nl_nl_test_set/guiding_principles"
@@ -63,7 +83,7 @@ const App = () => {
           component={DifficultUtterances}
         />
 
-        {/* uk_ua_test_set routes */}
+        {/* uk_ul routes */}
         <Route
           path="/uk_ua_test_set/guiding_principles"
           component={GuidingPrinciplesUK_UA}
@@ -89,6 +109,55 @@ const App = () => {
           component={DifficultUtterancesUK_UA}
         />
         <Route path="/uk_ua_test_set/format" component={FormatUK_UA} />
+
+        {/* nepali routes */}
+        <Route
+          path="/nepali/guiding_principles"
+          component={GuidingPrinciplesNepali}
+        />
+        <Route
+          path="/nepali/longform_generic_rules"
+          component={LongFormGenericRulesNepali}
+        />
+        <Route
+          path="/nepali/transcription_quality"
+          component={TranscriptionQualityNepali}
+        />
+        <Route path="/nepali/punctuation" component={PunctuationNepali} />
+        <Route
+          path="/nepali/agreed_spelling"
+          component={AgreedSpellingNepali}
+        />
+        <Route
+          path="/nepali/difficult_utterances"
+          component={DifficultUtterancesNepali}
+        />
+        <Route path="/nepali/format" component={FormatNepali} />
+
+        {/* Armenian routes */}
+
+        <Route
+          path="/armenian/guiding_principles"
+          component={GuidingPrinciplesArmenian}
+        />
+        <Route
+          path="/armenian/longform_generic_rules"
+          component={LongFormGenericRulesArmenian}
+        />
+        <Route
+          path="/armenian/transcription_quality"
+          component={TranscriptionQualityArmenian}
+        />
+        <Route path="/armenian/punctuation" component={PunctuationArmenian} />
+        <Route
+          path="/armenian/agreed_spelling"
+          component={AgreedSpellingArmenian}
+        />
+        <Route
+          path="/armenian/difficult_utterances"
+          component={DifficultUtterancesArmenian}
+        />
+        <Route path="/armenian/format" component={FormatArmenian} />
       </Switch>
     </Router>
   )

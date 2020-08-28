@@ -3,7 +3,7 @@ import Rating from '@material-ui/lab/Rating'
 import WarningIcon from '@material-ui/icons/Warning'
 import { Breadcrumbs, Link, Typography } from '@material-ui/core'
 
-const PageContentHeader = () => {
+const PageContentHeader = ({ currentPage }) => {
   const [value, setValue] = useState(2)
   return (
     <Fragment>
@@ -41,7 +41,7 @@ const PageContentHeader = () => {
             color="textPrimary"
             style={{ fontSize: '0.85rem', fontWeight: 400 }}
           >
-            longform nl_nl_test_set
+            {currentPage}
           </Typography>
         </Breadcrumbs>
         <Rating

@@ -74,7 +74,7 @@ const SidebarMenuItem = ({ label, path, subMenus }) => {
 }
 SidebarMenuItem.propTypes = {
   label: PropTypes.string.isRequired,
-  subMenus: PropTypes.array.isRequired,
+  subMenus: PropTypes.array,
 }
 export default SidebarMenuItem
 

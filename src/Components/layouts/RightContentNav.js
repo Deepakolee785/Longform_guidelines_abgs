@@ -48,6 +48,7 @@ const useStyles = makeStyles((theme) => ({
     borderLeft: '4px solid #1a73e8',
     listStyleType: 'none',
     listStylePosition: 'revert',
+    width: '11.5rem',
   },
   rightNavListItem: {
     marginLeft: '-2rem',

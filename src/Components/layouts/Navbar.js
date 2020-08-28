@@ -13,7 +13,7 @@ import AccountCircle from '@material-ui/icons/AccountCircle'
 import MenuIcon from '@material-ui/icons/Menu'
 import { Link } from 'react-router-dom'
 
-const Navbar = ({ handleSidebarOpen }) => {
+const Navbar = ({ handleSidebarOpen, appTitle }) => {
   const classes = useStyles()
   return (
     <AppBar position="fixed" className={classes.appBar} elevation={5}>
@@ -25,7 +25,7 @@ const Navbar = ({ handleSidebarOpen }) => {
         </Hidden>
         <Typography variant="subtitle1" noWrap>
           <Link style={{ color: 'inherit', textDecoration: 'none' }} to="/">
-            longform nl_nl_test_set Written Domain Conventions
+            longform {appTitle} Written Domain Conventions
           </Link>
         </Typography>
         <span style={{ flexGrow: 1 }}></span>
