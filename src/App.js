@@ -122,6 +122,27 @@ import {
   TranscriptionQualityGujarati,
 } from './Guidelines/Gujarati'
 
+// Indonesian
+import {
+  AgreedSpellingIndonesian,
+  DifficultUtterancesIndonesian,
+  FormatIndonesian,
+  GuidingPrinciplesIndonesian,
+  LongFormGenericRulesIndonesian,
+  PunctuationIndonesian,
+  TranscriptionQualityIndonesian,
+} from './Guidelines/Indonesian'
+// Italian
+import {
+  AgreedSpellingItalian,
+  DifficultUtterancesItalian,
+  FormatItalian,
+  GuidingPrinciplesItalian,
+  LongFormGenericRulesItalian,
+  PunctuationItalian,
+  TranscriptionQualityItalian,
+} from './Guidelines/Italian'
+
 import Home from './Home'
 
 const App = () => {
@@ -390,6 +411,55 @@ const App = () => {
           component={DifficultUtterancesGujarati}
         />
         <Route path="/gujarati/format" component={FormatGujarati} />
+        {/* Indonesian routes */}
+        <Route
+          path="/indonesian/guiding_principles"
+          component={GuidingPrinciplesIndonesian}
+        />
+        <Route
+          path="/indonesian/longform_generic_rules"
+          component={LongFormGenericRulesIndonesian}
+        />
+        <Route
+          path="/indonesian/transcription_quality"
+          component={TranscriptionQualityIndonesian}
+        />
+        <Route
+          path="/indonesian/punctuation"
+          component={PunctuationIndonesian}
+        />
+        <Route
+          path="/indonesian/agreed_spelling"
+          component={AgreedSpellingIndonesian}
+        />
+        <Route
+          path="/indonesian/difficult_utterances"
+          component={DifficultUtterancesIndonesian}
+        />
+        <Route path="/indonesian/format" component={FormatIndonesian} />
+        {/* Italian routes */}
+        <Route
+          path="/italian/guiding_principles"
+          component={GuidingPrinciplesItalian}
+        />
+        <Route
+          path="/italian/longform_generic_rules"
+          component={LongFormGenericRulesItalian}
+        />
+        <Route
+          path="/italian/transcription_quality"
+          component={TranscriptionQualityItalian}
+        />
+        <Route path="/italian/punctuation" component={PunctuationItalian} />
+        <Route
+          path="/italian/agreed_spelling"
+          component={AgreedSpellingItalian}
+        />
+        <Route
+          path="/italian/difficult_utterances"
+          component={DifficultUtterancesItalian}
+        />
+        <Route path="/italian/format" component={FormatItalian} />
       </Switch>
     </Router>
   )

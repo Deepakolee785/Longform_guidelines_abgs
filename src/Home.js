@@ -21,6 +21,8 @@ const Home = () => {
       <a href="/georgian/guiding_principles">Georgian</a>
       <a href="/greek/guiding_principles">Greek</a>
       <a href="/gujarati/guiding_principles">Gujarati</a>
+      <a href="/indonesian/guiding_principles">Indonesian</a>
+      <a href="/italian/guiding_principles">Italian</a>
     </div>
   )
 }
