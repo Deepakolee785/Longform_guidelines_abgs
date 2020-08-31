@@ -23,6 +23,7 @@ const Home = () => {
       <a href="/gujarati/guiding_principles">Gujarati</a>
       <a href="/indonesian/guiding_principles">Indonesian</a>
       <a href="/italian/guiding_principles">Italian</a>
+      <a href="/japanese/guiding_principles">Japnsese</a>
     </div>
   )
 }

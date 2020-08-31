@@ -142,6 +142,11 @@ import {
   PunctuationItalian,
   TranscriptionQualityItalian,
 } from './Guidelines/Italian'
+// Japnese
+import {
+  GuidingPrinciplesJapnese,
+  LongFormGenericRulesJapnese,
+} from './Guidelines/Japanese'
 
 import Home from './Home'
 
@@ -460,6 +465,15 @@ const App = () => {
           component={DifficultUtterancesItalian}
         />
         <Route path="/italian/format" component={FormatItalian} />
+        {/* Japnese routes */}
+        <Route
+          path="/japanese/guiding_principles"
+          component={GuidingPrinciplesJapnese}
+        />
+        <Route
+          path="/japanese/longform_generic_rules"
+          component={LongFormGenericRulesJapnese}
+        />
       </Switch>
     </Router>
   )
