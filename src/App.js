@@ -172,7 +172,7 @@ import {
 // Macedonian
 import {
   AgreedSpellingMacedonian,
-  DifficultUtterancesMacedonian,
+  // DifficultUtterancesMacedonian,
   FormatMacedonian,
   GuidingPrinciplesMacedonian,
   LongFormGenericRulesMacedonian,
@@ -573,10 +573,10 @@ const App = () => {
           path="/macedonian/agreed_spelling"
           component={AgreedSpellingMacedonian}
         />
-        <Route
+        {/* <Route
           path="/macedonian/difficult_utterances"
           component={DifficultUtterancesMacedonian}
-        />
+        /> */}
         <Route path="/macedonian/format" component={FormatMacedonian} />
       </Switch>
     </Router>
