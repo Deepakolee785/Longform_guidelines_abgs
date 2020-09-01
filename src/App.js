@@ -148,6 +148,38 @@ import {
   LongFormGenericRulesJapnese,
 } from './Guidelines/Japanese'
 
+// Kannada
+import {
+  AgreedSpellingKannada,
+  DifficultUtterancesKannada,
+  FormatKannada,
+  GuidingPrinciplesKannada,
+  LongFormGenericRulesKannada,
+  PunctuationKannada,
+  TranscriptionQualityKannada,
+} from './Guidelines/Kannada'
+// Korean
+import {
+  AgreedSpellingKorean,
+  DifficultUtterancesKorean,
+  FormatKorean,
+  GuidingPrinciplesKorean,
+  LongFormGenericRulesKorean,
+  PunctuationKorean,
+  TranscriptionQualityKorean,
+} from './Guidelines/Korean'
+
+// Macedonian
+import {
+  AgreedSpellingMacedonian,
+  DifficultUtterancesMacedonian,
+  FormatMacedonian,
+  GuidingPrinciplesMacedonian,
+  LongFormGenericRulesMacedonian,
+  PunctuationMacedonian,
+  TranscriptionQualityMacedonian,
+} from './Guidelines/Macedonian'
+
 import Home from './Home'
 
 const App = () => {
@@ -474,6 +506,78 @@ const App = () => {
           path="/japanese/longform_generic_rules"
           component={LongFormGenericRulesJapnese}
         />
+        {/* Kannada routes */}
+        <Route
+          path="/kannada/guiding_principles"
+          component={GuidingPrinciplesKannada}
+        />
+        <Route
+          path="/kannada/longform_generic_rules"
+          component={LongFormGenericRulesKannada}
+        />
+        <Route
+          path="/kannada/transcription_quality"
+          component={TranscriptionQualityKannada}
+        />
+        <Route path="/kannada/punctuation" component={PunctuationKannada} />
+        <Route
+          path="/kannada/agreed_spelling"
+          component={AgreedSpellingKannada}
+        />
+        <Route
+          path="/kannada/difficult_utterances"
+          component={DifficultUtterancesKannada}
+        />
+        <Route path="/kannada/format" component={FormatKannada} />
+        {/* Korean routes */}
+        <Route
+          path="/korean/guiding_principles"
+          component={GuidingPrinciplesKorean}
+        />
+        <Route
+          path="/korean/longform_generic_rules"
+          component={LongFormGenericRulesKorean}
+        />
+        <Route
+          path="/korean/transcription_quality"
+          component={TranscriptionQualityKorean}
+        />
+        <Route path="/korean/punctuation" component={PunctuationKorean} />
+        <Route
+          path="/korean/agreed_spelling"
+          component={AgreedSpellingKorean}
+        />
+        <Route
+          path="/korean/difficult_utterances"
+          component={DifficultUtterancesKorean}
+        />
+        <Route path="/korean/format" component={FormatKorean} />
+        {/* Macedonian routes */}
+        <Route
+          path="/macedonian/guiding_principles"
+          component={GuidingPrinciplesMacedonian}
+        />
+        <Route
+          path="/macedonian/longform_generic_rules"
+          component={LongFormGenericRulesMacedonian}
+        />
+        <Route
+          path="/macedonian/transcription_quality"
+          component={TranscriptionQualityMacedonian}
+        />
+        <Route
+          path="/macedonian/punctuation"
+          component={PunctuationMacedonian}
+        />
+        <Route
+          path="/macedonian/agreed_spelling"
+          component={AgreedSpellingMacedonian}
+        />
+        <Route
+          path="/macedonian/difficult_utterances"
+          component={DifficultUtterancesMacedonian}
+        />
+        <Route path="/macedonian/format" component={FormatMacedonian} />
       </Switch>
     </Router>
   )

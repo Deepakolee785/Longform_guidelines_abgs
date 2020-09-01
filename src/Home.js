@@ -24,6 +24,9 @@ const Home = () => {
       <a href="/indonesian/guiding_principles">Indonesian</a>
       <a href="/italian/guiding_principles">Italian</a>
       <a href="/japanese/guiding_principles">Japnsese</a>
+      <a href="/kannada/guiding_principles">Kannada</a>
+      <a href="/korean/guiding_principles">Korean</a>
+      <a href="/macedonian/guiding_principles">Macedonian</a>
     </div>
   )
 }
