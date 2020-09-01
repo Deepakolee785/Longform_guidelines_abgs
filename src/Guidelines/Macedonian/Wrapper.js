@@ -66,11 +66,11 @@ const Wrapper = ({ children }) => {
       subMenus: [
         { label: 'Overview', path: '/macedonian/format' },
         { label: 'Number', path: '#number' },
-        { label: 'Date and time', path: '#currency-and-unit' },
-        { label: 'Commas', path: '#date-and-time' },
-        { label: 'Address', path: '#address' },
-        { label: 'Web', path: '#web' },
-        { label: 'Abbreviation', path: '#abbreviation' },
+        // { label: 'Date and time', path: '#currency-and-unit' },
+        // { label: 'Commas', path: '#date-and-time' },
+        // { label: 'Address', path: '#address' },
+        // { label: 'Web', path: '#web' },
+        // { label: 'Abbreviation', path: '#abbreviation' },
       ],
     },
     {
