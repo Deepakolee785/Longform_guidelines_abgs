@@ -229,6 +229,36 @@ import {
   PunctuationMongolian,
   TranscriptionQualityMongolian,
 } from './Guidelines/Mongolian'
+// Noreweign
+import {
+  AgreedSpellingNoreweign,
+  DifficultUtterancesNoreweign,
+  FormatNoreweign,
+  GuidingPrinciplesNoreweign,
+  LongFormGenericRulesNoreweign,
+  PunctuationNoreweign,
+  TranscriptionQualityNoreweign,
+} from './Guidelines/Noreweign'
+// Pujabi
+import {
+  AgreedSpellingPujabi,
+  DifficultUtterancesPujabi,
+  FormatPujabi,
+  GuidingPrinciplesPujabi,
+  LongFormGenericRulesPujabi,
+  PunctuationPujabi,
+  TranscriptionQualityPujabi,
+} from './Guidelines/Pujabi'
+// Russian
+import {
+  AgreedSpellingRussian,
+  DifficultUtterancesRussian,
+  FormatRussian,
+  GuidingPrinciplesRussian,
+  LongFormGenericRulesRussian,
+  PunctuationRussian,
+  TranscriptionQualityRussian,
+} from './Guidelines/Russian'
 
 import Home from './Home'
 
@@ -740,6 +770,75 @@ const App = () => {
           component={DifficultUtterancesMongolian}
         />
         <Route path="/mongolian/format" component={FormatMongolian} />
+        {/* Noreweign routes */}
+        <Route
+          path="/noreweign/guiding_principles"
+          component={GuidingPrinciplesNoreweign}
+        />
+        <Route
+          path="/noreweign/longform_generic_rules"
+          component={LongFormGenericRulesNoreweign}
+        />
+        <Route
+          path="/noreweign/transcription_quality"
+          component={TranscriptionQualityNoreweign}
+        />
+        <Route path="/noreweign/punctuation" component={PunctuationNoreweign} />
+        <Route
+          path="/noreweign/agreed_spelling"
+          component={AgreedSpellingNoreweign}
+        />
+        <Route
+          path="/noreweign/difficult_utterances"
+          component={DifficultUtterancesNoreweign}
+        />
+        <Route path="/noreweign/format" component={FormatNoreweign} />
+        {/* Pujabi routes */}
+        <Route
+          path="/pujabi/guiding_principles"
+          component={GuidingPrinciplesPujabi}
+        />
+        <Route
+          path="/pujabi/longform_generic_rules"
+          component={LongFormGenericRulesPujabi}
+        />
+        <Route
+          path="/pujabi/transcription_quality"
+          component={TranscriptionQualityPujabi}
+        />
+        <Route path="/pujabi/punctuation" component={PunctuationPujabi} />
+        <Route
+          path="/pujabi/agreed_spelling"
+          component={AgreedSpellingPujabi}
+        />
+        <Route
+          path="/pujabi/difficult_utterances"
+          component={DifficultUtterancesPujabi}
+        />
+        <Route path="/pujabi/format" component={FormatPujabi} />
+        {/* Russian routes */}
+        <Route
+          path="/russian/guiding_principles"
+          component={GuidingPrinciplesRussian}
+        />
+        <Route
+          path="/russian/longform_generic_rules"
+          component={LongFormGenericRulesRussian}
+        />
+        <Route
+          path="/russian/transcription_quality"
+          component={TranscriptionQualityRussian}
+        />
+        <Route path="/russian/punctuation" component={PunctuationRussian} />
+        <Route
+          path="/russian/agreed_spelling"
+          component={AgreedSpellingRussian}
+        />
+        <Route
+          path="/russian/difficult_utterances"
+          component={DifficultUtterancesRussian}
+        />
+        <Route path="/russian/format" component={FormatRussian} />
       </Switch>
     </Router>
   )

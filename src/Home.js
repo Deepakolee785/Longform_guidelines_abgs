@@ -32,6 +32,9 @@ const Home = () => {
       <a href="/mandarin/guiding_principles">Mandarin</a>
       <a href="/marathi/guiding_principles">Marathi</a>
       <a href="/mongolian/guiding_principles">Mongolian</a>
+      <a href="/noreweign/guiding_principles">Noreweign</a>
+      <a href="/pujabi/guiding_principles">Pujabi</a>
+      <a href="/russian/guiding_principles">Russian</a>
     </div>
   )
 }
