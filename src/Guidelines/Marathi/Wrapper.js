@@ -73,18 +73,18 @@ const Wrapper = ({ children }) => {
         { label: 'Abbreviation', path: '#abbreviation' },
       ],
     },
-    {
-      label: 'Agreed Spelling',
-      path: '',
-      subMenus: [
-        { label: 'Overview', path: '/marathi/agreed_spelling' },
-        { label: 'Spelling out ', path: '#spelling-out' },
-        { label: 'Proper names', path: '#interjection' },
-        { label: 'Brand and Product', path: '#brand-and-product' },
-        { label: 'Media title ', path: '#media-title' },
-        { label: 'Multiple spellings ', path: '#multiple-spelling' },
-      ],
-    },
+    // {
+    //   label: 'Agreed Spelling',
+    //   path: '',
+    //   subMenus: [
+    //     { label: 'Overview', path: '/marathi/agreed_spelling' },
+    //     { label: 'Spelling out ', path: '#spelling-out' },
+    //     { label: 'Proper names', path: '#interjection' },
+    //     { label: 'Brand and Product', path: '#brand-and-product' },
+    //     { label: 'Media title ', path: '#media-title' },
+    //     { label: 'Multiple spellings ', path: '#multiple-spelling' },
+    //   ],
+    // },
     {
       label: 'Diffiicult Utterances',
       path: '',
