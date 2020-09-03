@@ -259,6 +259,26 @@ import {
   PunctuationRussian,
   TranscriptionQualityRussian,
 } from './Guidelines/Russian'
+// Slovak
+import {
+  AgreedSpellingSlovak,
+  DifficultUtterancesSlovak,
+  FormatSlovak,
+  GuidingPrinciplesSlovak,
+  LongFormGenericRulesSlovak,
+  PunctuationSlovak,
+  TranscriptionQualitySlovak,
+} from './Guidelines/Slovak'
+// Slovene
+import {
+  AgreedSpellingSlovene,
+  DifficultUtterancesSlovene,
+  FormatSlovene,
+  GuidingPrinciplesSlovene,
+  LongFormGenericRulesSlovene,
+  PunctuationSlovene,
+  TranscriptionQualitySlovene,
+} from './Guidelines/Slovene'
 
 import Home from './Home'
 
@@ -839,6 +859,52 @@ const App = () => {
           component={DifficultUtterancesRussian}
         />
         <Route path="/russian/format" component={FormatRussian} />
+        {/* Slovak routes */}
+        <Route
+          path="/slovak/guiding_principles"
+          component={GuidingPrinciplesSlovak}
+        />
+        <Route
+          path="/slovak/longform_generic_rules"
+          component={LongFormGenericRulesSlovak}
+        />
+        <Route
+          path="/slovak/transcription_quality"
+          component={TranscriptionQualitySlovak}
+        />
+        <Route path="/slovak/punctuation" component={PunctuationSlovak} />
+        <Route
+          path="/slovak/agreed_spelling"
+          component={AgreedSpellingSlovak}
+        />
+        <Route
+          path="/slovak/difficult_utterances"
+          component={DifficultUtterancesSlovak}
+        />
+        <Route path="/slovak/format" component={FormatSlovak} />
+        {/* Slovene routes */}
+        <Route
+          path="/slovene/guiding_principles"
+          component={GuidingPrinciplesSlovene}
+        />
+        <Route
+          path="/slovene/longform_generic_rules"
+          component={LongFormGenericRulesSlovene}
+        />
+        <Route
+          path="/slovene/transcription_quality"
+          component={TranscriptionQualitySlovene}
+        />
+        <Route path="/slovene/punctuation" component={PunctuationSlovene} />
+        <Route
+          path="/slovene/agreed_spelling"
+          component={AgreedSpellingSlovene}
+        />
+        <Route
+          path="/slovene/difficult_utterances"
+          component={DifficultUtterancesSlovene}
+        />
+        <Route path="/slovene/format" component={FormatSlovene} />
       </Switch>
     </Router>
   )

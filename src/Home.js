@@ -35,6 +35,8 @@ const Home = () => {
       <a href="/noreweign/guiding_principles">Noreweign</a>
       <a href="/pujabi/guiding_principles">Pujabi</a>
       <a href="/russian/guiding_principles">Russian</a>
+      <a href="/slovak/guiding_principles">Slovak</a>
+      <a href="/slovene/guiding_principles">Slovene</a>
     </div>
   )
 }
