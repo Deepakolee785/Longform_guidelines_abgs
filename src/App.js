@@ -309,6 +309,76 @@ import {
   PunctuationSwedish,
   TranscriptionQualitySwedish,
 } from './Guidelines/Swedish'
+// Tamil
+import {
+  AgreedSpellingTamil,
+  DifficultUtterancesTamil,
+  FormatTamil,
+  GuidingPrinciplesTamil,
+  LongFormGenericRulesTamil,
+  PunctuationTamil,
+  TranscriptionQualityTamil,
+} from './Guidelines/Tamil'
+// Telugu
+import {
+  AgreedSpellingTelugu,
+  DifficultUtterancesTelugu,
+  FormatTelugu,
+  GuidingPrinciplesTelugu,
+  LongFormGenericRulesTelugu,
+  PunctuationTelugu,
+  TranscriptionQualityTelugu,
+} from './Guidelines/Telugu'
+// Thai
+import {
+  AgreedSpellingThai,
+  DifficultUtterancesThai,
+  FormatThai,
+  GuidingPrinciplesThai,
+  LongFormGenericRulesThai,
+  PunctuationThai,
+  TranscriptionQualityThai,
+} from './Guidelines/Thai'
+// Turskish
+import {
+  AgreedSpellingTurskish,
+  DifficultUtterancesTurskish,
+  FormatTurskish,
+  GuidingPrinciplesTurskish,
+  LongFormGenericRulesTurskish,
+  PunctuationTurskish,
+  TranscriptionQualityTurskish,
+} from './Guidelines/Turskish'
+// Ukraninan
+import {
+  AgreedSpellingUkraninan,
+  DifficultUtterancesUkraninan,
+  FormatUkraninan,
+  GuidingPrinciplesUkraninan,
+  LongFormGenericRulesUkraninan,
+  PunctuationUkraninan,
+  TranscriptionQualityUkraninan,
+} from './Guidelines/Ukraninan'
+// Urdu
+import {
+  AgreedSpellingUrdu,
+  DifficultUtterancesUrdu,
+  FormatUrdu,
+  GuidingPrinciplesUrdu,
+  LongFormGenericRulesUrdu,
+  PunctuationUrdu,
+  TranscriptionQualityUrdu,
+} from './Guidelines/Urdu'
+// Vietnamese
+import {
+  AgreedSpellingVietnamese,
+  DifficultUtterancesVietnamese,
+  FormatVietnamese,
+  GuidingPrinciplesVietnamese,
+  LongFormGenericRulesVietnamese,
+  PunctuationVietnamese,
+  TranscriptionQualityVietnamese,
+} from './Guidelines/Vietnamese'
 
 import Home from './Home'
 
@@ -1004,6 +1074,161 @@ const App = () => {
           component={DifficultUtterancesSwedish}
         />
         <Route path="/swedish/format" component={FormatSwedish} />
+        {/* Tamil routes */}
+        <Route
+          path="/tamil/guiding_principles"
+          component={GuidingPrinciplesTamil}
+        />
+        <Route
+          path="/tamil/longform_generic_rules"
+          component={LongFormGenericRulesTamil}
+        />
+        <Route
+          path="/tamil/transcription_quality"
+          component={TranscriptionQualityTamil}
+        />
+        <Route path="/tamil/punctuation" component={PunctuationTamil} />
+        <Route path="/tamil/agreed_spelling" component={AgreedSpellingTamil} />
+        <Route
+          path="/tamil/difficult_utterances"
+          component={DifficultUtterancesTamil}
+        />
+        <Route path="/tamil/format" component={FormatTamil} />
+        {/* Telugu routes */}
+        <Route
+          path="/telugu/guiding_principles"
+          component={GuidingPrinciplesTelugu}
+        />
+        <Route
+          path="/telugu/longform_generic_rules"
+          component={LongFormGenericRulesTelugu}
+        />
+        <Route
+          path="/telugu/transcription_quality"
+          component={TranscriptionQualityTelugu}
+        />
+        <Route path="/telugu/punctuation" component={PunctuationTelugu} />
+        <Route
+          path="/telugu/agreed_spelling"
+          component={AgreedSpellingTelugu}
+        />
+        <Route
+          path="/telugu/difficult_utterances"
+          component={DifficultUtterancesTelugu}
+        />
+        <Route path="/telugu/format" component={FormatTelugu} />
+        {/* Thai routes */}
+        <Route
+          path="/thai/guiding_principles"
+          component={GuidingPrinciplesThai}
+        />
+        <Route
+          path="/thai/longform_generic_rules"
+          component={LongFormGenericRulesThai}
+        />
+        <Route
+          path="/thai/transcription_quality"
+          component={TranscriptionQualityThai}
+        />
+        <Route path="/thai/punctuation" component={PunctuationThai} />
+        <Route path="/thai/agreed_spelling" component={AgreedSpellingThai} />
+        <Route
+          path="/thai/difficult_utterances"
+          component={DifficultUtterancesThai}
+        />
+        <Route path="/thai/format" component={FormatThai} />
+        {/* Turskish routes */}
+        <Route
+          path="/turskish/guiding_principles"
+          component={GuidingPrinciplesTurskish}
+        />
+        <Route
+          path="/turskish/longform_generic_rules"
+          component={LongFormGenericRulesTurskish}
+        />
+        <Route
+          path="/turskish/transcription_quality"
+          component={TranscriptionQualityTurskish}
+        />
+        <Route path="/turskish/punctuation" component={PunctuationTurskish} />
+        <Route
+          path="/turskish/agreed_spelling"
+          component={AgreedSpellingTurskish}
+        />
+        <Route
+          path="/turskish/difficult_utterances"
+          component={DifficultUtterancesTurskish}
+        />
+        <Route path="/turskish/format" component={FormatTurskish} />
+        {/* Ukraninan routes */}
+        <Route
+          path="/ukraninan/guiding_principles"
+          component={GuidingPrinciplesUkraninan}
+        />
+        <Route
+          path="/ukraninan/longform_generic_rules"
+          component={LongFormGenericRulesUkraninan}
+        />
+        <Route
+          path="/ukraninan/transcription_quality"
+          component={TranscriptionQualityUkraninan}
+        />
+        <Route path="/ukraninan/punctuation" component={PunctuationUkraninan} />
+        <Route
+          path="/ukraninan/agreed_spelling"
+          component={AgreedSpellingUkraninan}
+        />
+        <Route
+          path="/ukraninan/difficult_utterances"
+          component={DifficultUtterancesUkraninan}
+        />
+        <Route path="/ukraninan/format" component={FormatUkraninan} />
+        {/* Urdu routes */}
+        <Route
+          path="/urdu/guiding_principles"
+          component={GuidingPrinciplesUrdu}
+        />
+        <Route
+          path="/urdu/longform_generic_rules"
+          component={LongFormGenericRulesUrdu}
+        />
+        <Route
+          path="/urdu/transcription_quality"
+          component={TranscriptionQualityUrdu}
+        />
+        <Route path="/urdu/punctuation" component={PunctuationUrdu} />
+        <Route path="/urdu/agreed_spelling" component={AgreedSpellingUrdu} />
+        <Route
+          path="/urdu/difficult_utterances"
+          component={DifficultUtterancesUrdu}
+        />
+        <Route path="/urdu/format" component={FormatUrdu} />
+        {/* Vietnamese routes */}
+        <Route
+          path="/vietnamese/guiding_principles"
+          component={GuidingPrinciplesVietnamese}
+        />
+        <Route
+          path="/vietnamese/longform_generic_rules"
+          component={LongFormGenericRulesVietnamese}
+        />
+        <Route
+          path="/vietnamese/transcription_quality"
+          component={TranscriptionQualityVietnamese}
+        />
+        <Route
+          path="/vietnamese/punctuation"
+          component={PunctuationVietnamese}
+        />
+        <Route
+          path="/vietnamese/agreed_spelling"
+          component={AgreedSpellingVietnamese}
+        />
+        <Route
+          path="/vietnamese/difficult_utterances"
+          component={DifficultUtterancesVietnamese}
+        />
+        <Route path="/vietnamese/format" component={FormatVietnamese} />
       </Switch>
     </Router>
   )

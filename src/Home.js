@@ -40,6 +40,13 @@ const Home = () => {
       <a href="/sundanese/guiding_principles">Sundanese</a>
       <a href="/swahili/guiding_principles">Swahili</a>
       <a href="/swedish/guiding_principles">Swedish</a>
+      <a href="/tamil/guiding_principles">Tamil</a>
+      <a href="/telugu/guiding_principles">Telugu</a>
+      <a href="/thai/guiding_principles">Thai</a>
+      <a href="/turskish/guiding_principles">Turskish</a>
+      <a href="/ukraninan/guiding_principles">Ukraninan</a>
+      <a href="/urdu/guiding_principles">Urdu</a>
+      <a href="/vietnamese/guiding_principles">Vietnamese</a>
     </div>
   )
 }
