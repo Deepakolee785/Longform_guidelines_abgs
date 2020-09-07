@@ -25,10 +25,10 @@ const Wrapper = ({ children }) => {
           label: 'Speaker labelling',
           path: '/vietnamese/longform_generic_rules#speaker-labeling',
         },
-        {
-          label: 'Audio labels',
-          path: '/vietnamese/longform_generic_rules#audio-labels',
-        },
+        // {
+        //   label: 'Audio labels',
+        //   path: '/vietnamese/longform_generic_rules#audio-labels',
+        // },
         { label: 'Pii', path: '/vietnamese/longform_generic_rules#pii' },
       ],
     },
