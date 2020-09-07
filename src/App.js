@@ -121,6 +121,16 @@ import {
   PunctuationGujarati,
   TranscriptionQualityGujarati,
 } from './Guidelines/Gujarati'
+// Hindi
+import {
+  AgreedSpellingHindi,
+  DifficultUtterancesHindi,
+  FormatHindi,
+  GuidingPrinciplesHindi,
+  LongFormGenericRulesHindi,
+  PunctuationHindi,
+  TranscriptionQualityHindi,
+} from './Guidelines/Hindi'
 
 // Indonesian
 import {
@@ -648,6 +658,26 @@ const App = () => {
           component={DifficultUtterancesGujarati}
         />
         <Route path="/gujarati/format" component={FormatGujarati} />
+        {/* Hindi routes */}
+        <Route
+          path="/hindi/guiding_principles"
+          component={GuidingPrinciplesHindi}
+        />
+        <Route
+          path="/hindi/longform_generic_rules"
+          component={LongFormGenericRulesHindi}
+        />
+        <Route
+          path="/hindi/transcription_quality"
+          component={TranscriptionQualityHindi}
+        />
+        <Route path="/hindi/punctuation" component={PunctuationHindi} />
+        <Route path="/hindi/agreed_spelling" component={AgreedSpellingHindi} />
+        <Route
+          path="/hindi/difficult_utterances"
+          component={DifficultUtterancesHindi}
+        />
+        <Route path="/hindi/format" component={FormatHindi} />
         {/* Indonesian routes */}
         <Route
           path="/indonesian/guiding_principles"
