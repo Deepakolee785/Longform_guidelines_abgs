@@ -21,7 +21,7 @@ const GuidingPrinciplesUK_UA = () => {
           <Paper className={classes.content}>
             <Toolbar />
             {/*  */}
-            <PageContentHeader currentPage="longform Bangla" />
+            <PageContentHeader currentPage="Longform Bangla" />
             {/*  */}
             <p className="second-warning">
               **This document is confidential, do not redistribute**

@@ -18,6 +18,7 @@ const RightContentNav = ({ title, headingIds }) => {
             }}
             items={headingIds}
             currentClassName="active-right-sidebar"
+            offset={-75}
           >
             {headingIds.map((_id, index) => (
               <li key={index}>

@@ -25,7 +25,7 @@ const Punctuation = () => {
           <Paper className={classes.content}>
             <Toolbar />
             {/*  */}
-            <PageContentHeader currentPage="longform Mandarin" />
+            <PageContentHeader currentPage="Longform Mandarin" />
             <div className="content text">
               <p className={'large-heading'}>Punctuation</p>
               <div id="fragment-vrsus-sentences">

@@ -35,7 +35,7 @@ const SidebarMenuItem = ({ label, path, subMenus }) => {
           </p>
         </NavLink>
       )}
-      <Collapse in={open} timeout="auto" unmountOnExit>
+      <Collapse in={open} timeout="auto">
         <ul
           style={{
             marginTop: '-0.5rem',

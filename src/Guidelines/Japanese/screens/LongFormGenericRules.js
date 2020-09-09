@@ -14,7 +14,7 @@ const LongFormGenericRules = () => {
     'segmentation',
     'speaker-labeling',
     'audio-labels',
-    'pii',
+    'PII',
   ]
 
   return (
@@ -24,7 +24,7 @@ const LongFormGenericRules = () => {
           <Paper className={classes.content}>
             <Toolbar />
             {/*  */}
-            <PageContentHeader currentPage="longform Japnese" />
+            <PageContentHeader currentPage="Longform Japnese" />
             <div className="content text">
               <p className={'large-heading'}>Longform generic rules</p>
               <div id="unintelligible-or-foreign-or-singing">
@@ -69,8 +69,8 @@ const LongFormGenericRules = () => {
                   will indicate whether or not you can submit a speaker name.)
                 </p>
               </div>
-              <div id="pii">
-                <p className={'heading'}>Pii</p>
+              <div id="PII">
+                <p className={'heading'}>PII</p>
                 <p className={styles.block_148}>
                   {' '}
                   NAME: First and/or Last name

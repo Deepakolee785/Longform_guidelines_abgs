@@ -25,7 +25,7 @@ const Format = () => {
           <Paper className={classes.content}>
             <Toolbar />
             {/*  */}
-            <PageContentHeader currentPage="longform uk_ua_test_set" />
+            <PageContentHeader currentPage="Longform uk_ua_test_set" />
             <div className="content text">
               <h1 id="calibre_link-25" className={styles.block_12}>
                 Format

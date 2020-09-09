@@ -29,7 +29,7 @@ const Wrapper = ({ children }) => {
           label: 'Audio labels',
           path: '/georgian/longform_generic_rules#audio-labels',
         },
-        { label: 'Pii', path: '/georgian/longform_generic_rules#pii' },
+        { label: 'PII', path: '/georgian/longform_generic_rules#PII' },
       ],
     },
     {

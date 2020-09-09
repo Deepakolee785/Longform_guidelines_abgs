@@ -25,7 +25,7 @@ const Punctuation = () => {
           <Paper className={classes.content}>
             <Toolbar />
             {/*  */}
-            <PageContentHeader currentPage="longform Thai" />
+            <PageContentHeader currentPage="Longform Thai" />
             <div className="content text">Punctuation</div>
           </Paper>
         </Grid>

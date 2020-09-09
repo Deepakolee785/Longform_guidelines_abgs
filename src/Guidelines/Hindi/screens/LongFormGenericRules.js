@@ -14,7 +14,7 @@ const LongFormGenericRules = () => {
     'segmentation',
     'speaker-labeling',
     'audio-labels',
-    'pii',
+    'PII',
   ]
 
   return (
@@ -24,7 +24,7 @@ const LongFormGenericRules = () => {
           <Paper className={classes.content}>
             <Toolbar />
             {/*  */}
-            <PageContentHeader currentPage="longform Hindi" />
+            <PageContentHeader currentPage="Longform Hindi" />
             <div className="content text">Longform</div>
           </Paper>
         </Grid>

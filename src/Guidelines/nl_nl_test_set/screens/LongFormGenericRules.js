@@ -14,7 +14,7 @@ const LongFormGenericRules = () => {
     'segmentation',
     'speaker-labeling',
     'audio-labels',
-    'pii',
+    'PII',
   ]
 
   return (
@@ -24,7 +24,7 @@ const LongFormGenericRules = () => {
           <Paper className={classes.content}>
             <Toolbar />
             {/*  */}
-            <PageContentHeader currentPage="longform nl_nl_test_set" />
+            <PageContentHeader currentPage="Longform nl_nl_test_set" />
 
             <div className="content">
               <h1 className="large-heading">Longform generic rules</h1>
@@ -219,8 +219,8 @@ const LongFormGenericRules = () => {
                   </li>
                 </ul>
               </div>
-              <div id="pii">
-                <h2 className="heading">Pii</h2>
+              <div id="PII">
+                <h2 className="heading">PII</h2>
                 <ul>
                   <li>
                     PII stands for Personally Identifiable Information. PII is

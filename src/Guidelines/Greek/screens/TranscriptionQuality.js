@@ -24,7 +24,7 @@ const TranscriptionQuality = () => {
           <Paper className={classes.content}>
             <Toolbar />
             {/*  */}
-            <PageContentHeader currentPage="longform Greek" />
+            <PageContentHeader currentPage="Longform Greek" />
             <div className="content text">
               <p className={'heading'}>Transcription quality </p>
               <p className={'text'}>

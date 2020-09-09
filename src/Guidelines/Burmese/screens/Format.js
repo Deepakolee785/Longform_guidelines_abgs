@@ -25,7 +25,7 @@ const Format = () => {
           <Paper className={classes.content}>
             <Toolbar />
             {/*  */}
-            <PageContentHeader currentPage="longform Burmese" />
+            <PageContentHeader currentPage="Longform Burmese" />
             <div className="content text">
               <p className={'heading'}>Format </p>
               <p className={'text'}>

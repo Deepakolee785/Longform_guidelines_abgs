@@ -25,7 +25,7 @@ const Navbar = ({ handleSidebarOpen, appTitle }) => {
         </Hidden>
         <Typography variant="subtitle1" noWrap>
           <Link style={{ color: 'inherit', textDecoration: 'none' }} to="/">
-            longform {appTitle} Written Domain Conventions
+            Longform {appTitle} Written Domain Conventions
           </Link>
         </Typography>
         <span style={{ flexGrow: 1 }}></span>

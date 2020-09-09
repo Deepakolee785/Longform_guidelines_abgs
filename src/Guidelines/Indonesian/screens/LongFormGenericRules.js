@@ -14,7 +14,7 @@ const LongFormGenericRules = () => {
     'segmentation',
     'speaker-labeling',
     'audio-labels',
-    'pii',
+    'PII',
   ]
 
   return (
@@ -127,8 +127,8 @@ const LongFormGenericRules = () => {
                   will indicate whether or not you can submit a speaker name.)
                 </p>
               </div>
-              <div id="pii">
-                <p className={'heading'}>Pii</p>
+              <div id="PII">
+                <p className={'heading'}>PII</p>
                 <p className={'text'}>
                   PII stands for Personally Identifiable Information. PII is
                   information that is not publicly available, but can help you

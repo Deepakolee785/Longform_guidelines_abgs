@@ -24,7 +24,7 @@ const DifficultUtterances = () => {
           <Paper className={classes.content}>
             <Toolbar />
             {/*  */}
-            <PageContentHeader currentPage="longform uk_ua_test_set" />
+            <PageContentHeader currentPage="Longform uk_ua_test_set" />
             <div className="content">
               <h1 id="calibre_link-39" class="block_23">
                 Difficult utterances

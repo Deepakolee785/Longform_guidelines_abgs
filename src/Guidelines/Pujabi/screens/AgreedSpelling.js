@@ -24,7 +24,7 @@ const AgreedSpelling = () => {
           <Paper className={classes.content}>
             <Toolbar />
             {/*  */}
-            <PageContentHeader currentPage="longform Pujabi" />
+            <PageContentHeader currentPage="Longform Pujabi" />
             <div className="content text">
               <p className={'large-heading'}>Agreed spelling</p>
               <p className={'text'}>

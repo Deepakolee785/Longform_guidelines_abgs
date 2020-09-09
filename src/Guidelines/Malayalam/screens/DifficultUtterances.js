@@ -24,7 +24,7 @@ const DifficultUtterances = () => {
           <Paper className={classes.content}>
             <Toolbar />
             {/*  */}
-            <PageContentHeader currentPage="longform Malayalam" />
+            <PageContentHeader currentPage="Longform Malayalam" />
             <div className="content text">
               <p className={'large-heading'}>Dicult utterances</p>
               <p className={'text'}>
