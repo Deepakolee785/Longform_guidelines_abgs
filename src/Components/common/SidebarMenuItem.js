@@ -4,16 +4,34 @@ import ArrowRightIcon from '@material-ui/icons/ArrowRight'
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown'
 import { Collapse } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 
 const SidebarMenuItem = ({ label, path, subMenus }) => {
   const classes = useStyles()
-  const [open, setOpen] = useState(false)
+  let isOpenMenu = null
+  try {
+    let location = useLocation()
+    let locationArray = location.pathname.split('/')
+    // console.log(locationArray[2])
+    // console.log('prop path: ', subMenus ? subMenus[0].path : '')
+    if (subMenus[0].path.includes(locationArray[2])) {
+      // console.log(true)
+      isOpenMenu = true
+    } else {
+      // console.log(false)
+      isOpenMenu = false
+    }
+  } catch (error) {
+    isOpenMenu = false
+  }
+
+  const [open, setOpen] = useState(isOpenMenu)
 
   const handleClick = () => {
     setOpen(!open)
   }
+
   return (
     <Fragment>
       {!path ? (
