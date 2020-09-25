@@ -107,48 +107,48 @@ const Wrapper = ({ children }) => {
           label: 'Proper names',
           path: '/englishUK/agreed_spelling#interjection',
         },
-        {
-          label: 'Brand and Product',
-          path: '/englishUK/agreed_spelling#brand-and-product',
-        },
-        {
-          label: 'Media title ',
-          path: '/englishUK/agreed_spelling#media-title',
-        },
-        {
-          label: 'Multiple spellings ',
-          path: '/englishUK/agreed_spelling#multiple-spelling',
-        },
+        // {
+        //   label: 'Brand and Product',
+        //   path: '/englishUK/agreed_spelling#brand-and-product',
+        // },
+        // {
+        //   label: 'Media title ',
+        //   path: '/englishUK/agreed_spelling#media-title',
+        // },
+        // {
+        //   label: 'Multiple spellings ',
+        //   path: '/englishUK/agreed_spelling#multiple-spelling',
+        // },
       ],
     },
-    {
-      label: 'Diffiicult Utterances',
-      path: '',
-      subMenus: [
-        { label: 'Overview', path: '/englishUK/difficult_utterances' },
-        {
-          label: 'Skipping a prompt',
-          path: '/englishUK/difficult_utterances#skipping-a-prompt',
-        },
-        {
-          label: 'Hesitations and trancations',
-          path: '#hesitations-and-truncations',
-        },
-        {
-          label: 'Background and foreground speech',
-          path:
-            '/englishUK/difficult_utterances#background-and-foreground-speech',
-        },
-        {
-          label: 'Foreign Language',
-          path: '/englishUK/difficult_utterances#foreign-language',
-        },
-        {
-          label: 'Accents ',
-          path: '/englishUK/difficult_utterances#accents',
-        },
-      ],
-    },
+    // {
+    //   label: 'Diffiicult Utterances',
+    //   path: '',
+    //   subMenus: [
+    //     { label: 'Overview', path: '/englishUK/difficult_utterances' },
+    //     {
+    //       label: 'Skipping a prompt',
+    //       path: '/englishUK/difficult_utterances#skipping-a-prompt',
+    //     },
+    //     {
+    //       label: 'Hesitations and trancations',
+    //       path: '#hesitations-and-truncations',
+    //     },
+    //     {
+    //       label: 'Background and foreground speech',
+    //       path:
+    //         '/englishUK/difficult_utterances#background-and-foreground-speech',
+    //     },
+    //     {
+    //       label: 'Foreign Language',
+    //       path: '/englishUK/difficult_utterances#foreign-language',
+    //     },
+    //     {
+    //       label: 'Accents ',
+    //       path: '/englishUK/difficult_utterances#accents',
+    //     },
+    //   ],
+    // },
   ]
   return (
     <MasterPage menuItems={menuItems} appTitle="EnglishUK">

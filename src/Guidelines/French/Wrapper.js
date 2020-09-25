@@ -111,43 +111,43 @@ const Wrapper = ({ children }) => {
           label: 'Brand and Product',
           path: '/french/agreed_spelling#brand-and-product',
         },
-        {
-          label: 'Media title ',
-          path: '/french/agreed_spelling#media-title',
-        },
-        {
-          label: 'Multiple spellings ',
-          path: '/french/agreed_spelling#multiple-spelling',
-        },
+        // {
+        //   label: 'Media title ',
+        //   path: '/french/agreed_spelling#media-title',
+        // },
+        // {
+        //   label: 'Multiple spellings ',
+        //   path: '/french/agreed_spelling#multiple-spelling',
+        // },
       ],
     },
-    {
-      label: 'Diffiicult Utterances',
-      path: '',
-      subMenus: [
-        { label: 'Overview', path: '/french/difficult_utterances' },
-        {
-          label: 'Skipping a prompt',
-          path: '/french/difficult_utterances#skipping-a-prompt',
-        },
-        {
-          label: 'Hesitations and trancations',
-          path: '#hesitations-and-truncations',
-        },
-        {
-          label: 'Background and foreground speech',
-          path: '/french/difficult_utterances#background-and-foreground-speech',
-        },
-        {
-          label: 'Foreign Language',
-          path: '/french/difficult_utterances#foreign-language',
-        },
-        {
-          label: 'Accents ',
-          path: '/french/difficult_utterances#accents',
-        },
-      ],
-    },
+    // {
+    //   label: 'Diffiicult Utterances',
+    //   path: '',
+    //   subMenus: [
+    //     { label: 'Overview', path: '/french/difficult_utterances' },
+    //     {
+    //       label: 'Skipping a prompt',
+    //       path: '/french/difficult_utterances#skipping-a-prompt',
+    //     },
+    //     {
+    //       label: 'Hesitations and trancations',
+    //       path: '#hesitations-and-truncations',
+    //     },
+    //     {
+    //       label: 'Background and foreground speech',
+    //       path: '/french/difficult_utterances#background-and-foreground-speech',
+    //     },
+    //     {
+    //       label: 'Foreign Language',
+    //       path: '/french/difficult_utterances#foreign-language',
+    //     },
+    //     {
+    //       label: 'Accents ',
+    //       path: '/french/difficult_utterances#accents',
+    //     },
+    //   ],
+    // },
   ]
   return (
     <MasterPage menuItems={menuItems} appTitle="French">
